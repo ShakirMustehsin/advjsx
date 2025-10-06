@@ -1,0 +1,25 @@
+{
+  "name": "reacty",
+  "version": "1.0.0",
+  "description": "This is the npm configurations of reacty",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShakirMustehsin/advjsx.git"
+  },
+  "keywords": [
+    "reacty"
+  ],
+  "author": "Astra Calce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShakirMustehsin/advjsx/issues"
+  },
+  "homepage": "https://github.com/ShakirMustehsin/advjsx#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
