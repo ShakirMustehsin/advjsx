@@ -1,0 +1,21 @@
+{
+  "name": "chemicalreacty",
+  "version": "1.0.0",
+  "description": "This is chemical reacty",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "chemistry"
+  ],
+  "author": "alert",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.16.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
