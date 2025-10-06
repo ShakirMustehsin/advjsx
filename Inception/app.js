@@ -1,11 +1,5 @@
-/**
- * div #parent 
- *    div # child 
- *         h1 
- *      div # child 2 
- *            h1 
- *            h2 
- */
+import React from "/Users/Astra Calce/Desktop/reacty/node_modules/";
+import ReactDOM from "react-dom";
 
 const parent = React.createElement("div", {id : "parent"}, 
       [ React.createElement("div", {id : "child"}, 
