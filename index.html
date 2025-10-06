@@ -17,6 +17,11 @@
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
 
-    <script></script>
+    <script>
+        const heading = React.createElement("h1", {}, "this is hello from react");
+        const root = ReactDOM.createRoot(document.querySelector(".root"));
+
+        root.render(heading);
+    </script>
   </body>
 </html>
