@@ -16,5 +16,21 @@ const FrstComponent = () => (
     <h1>This is functional componnedt hahahah</h1>
   </div>
 );
+
+const FrsteComponent = () => (
+  <div>
+    {JsxHeading}
+    {JsxHead}
+    <h1>This is functional componnedt hahahah</h1>
+  </div>
+);
+
+const FrsstComponent = () => (
+  <div>
+    {JsxHeading}
+    {JsxHead}
+    <h1>This is functional componnedt hahahah</h1>
+  </div>
+);
 const root = ReactDOM.createRoot(document.querySelector(".root"));
 root.render(<FrstComponent />);
