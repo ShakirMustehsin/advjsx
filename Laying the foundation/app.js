@@ -43,7 +43,7 @@ const Body = () => {
 
       <div className="restContainer">  
 
-         <RestCard/><RestCard/><RestCard/><RestCard/><RestCard/><RestCard/><RestCard/>
+         <RestCard/><RestCard/>
 
       </div>
     </div>

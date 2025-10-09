@@ -52,7 +52,7 @@
     flex-wrap: wrap;
 }
 .searchBar {
-  margin: 10px;
+  margin: 15px;
   text-transform: uppercase;
 }
 
@@ -60,7 +60,7 @@
   height: 400px;
   width: 250px;
   border-radius: 25px;
-  background-color: #266bc5;
+  background-color: #031732;
   color: white;
   padding: 15px;
 }
