@@ -17,7 +17,7 @@ const NavBar = ()=>{
   )
 }
 
-const RestCard = ()=> {
+const RestaurantCard = ()=> {
   return (
     <div>
        <div className="restCard">
@@ -43,7 +43,7 @@ const Body = () => {
 
       <div className="restContainer">  
 
-         <RestCard/><RestCard/>
+         <RestaurantCard/><RestaurantCard/>
 
       </div>
     </div>
