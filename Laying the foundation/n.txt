@@ -5,3 +5,7 @@
 // Concept of Transitive dependencies - app depends on parcel and parcel depends on other and others depend on others 
 // browserslist package and epic one (go and check their website online )
 // read a bit documentation on parcel and browserslist package.
+
+
+Ep 04 : 
+Component Based practice, adding html components using the gme
