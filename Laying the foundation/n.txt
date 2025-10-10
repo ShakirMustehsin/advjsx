@@ -9,3 +9,10 @@
 
 Ep 04 : 
 Component Based practice, adding html components using the gme
+**** Talk is cheap show me the code ***
+    - component based building
+    - making cards dynammic 
+         - Props
+         - Data from Backend
+         - Used Map() in js and how can it be implemented
+         - Also the importance of Keyyyys , to save the app from component reRendering
