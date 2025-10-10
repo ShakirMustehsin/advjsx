@@ -17,7 +17,7 @@ const NavBar = ()=>{
   )
 }
 
-const RestaurantCard = ()=> {
+const RestaurantCard = (props)=> {
   return (
     <div>
        <div className="restCard">
@@ -26,7 +26,7 @@ const RestaurantCard = ()=> {
                 <img src="https://images.unsplash.com/photo-1705563080126-b6eafb078547?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
               </div>
 
-              <h3>Gulabi kabab's</h3>
+              <h3>{props.name}</h3>
               <h5>5Stars</h5>
               <h5>20min</h5>
         </div>
@@ -43,7 +43,7 @@ const Body = () => {
 
       <div className="restContainer">  
 
-         <RestaurantCard/><RestaurantCard/>
+         <RestaurantCard name="KFC"/><RestaurantCard name="Katchi Junction"/>
 
       </div>
     </div>
