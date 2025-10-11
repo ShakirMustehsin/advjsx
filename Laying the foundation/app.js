@@ -1308,17 +1308,18 @@ const RestList =  [
 
 const RestaurantCard = (props)=> {
   const {restData} = props
+  const { name, cloudinaryImageId, deliveryTime, avgRating, cuisines} = restData?.info
   return (
     <div>
        <div className="restCard">
               
               <div className="restImg">
-                <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+restData.info.cloudinaryImageId}/>
+                <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId}/>
               </div>
 
-              <h3>{restData.info.name}</h3>
-              <h5>{restData.info.avgRating}Stars</h5>
-              <h5>{restData.info.sla.deliveryTime} mins</h5>
+              <h3>{name}</h3>
+              <h5>{avgRating}Stars</h5>
+              <h5>{deliveryTime} mins</h5>
         </div>
     </div>
   )
@@ -1333,7 +1334,11 @@ const Body = () => {
 
       <div className="restContainer">  
 
-         <RestaurantCard key= "022" restData={RestList[6]}/>
+        {
+          RestList.map((restaurant) =>(
+             <RestaurantCard key={restaurant.info.id} restData={restaurant}/>
+          )) 
+        }
 
       </div>
     </div>
