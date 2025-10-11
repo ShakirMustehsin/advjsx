@@ -14,5 +14,6 @@ Component Based practice, adding html components using the gme
     - making cards dynammic 
          - Props
          - Data from Backend
-         - Used Map() in js and how can it be implemented
+         - Used Map() in js and how can it be implemented (array based mapping)
          - Also the importance of Keyyyys , to save the app from component reRendering
+         - Json based object data 
