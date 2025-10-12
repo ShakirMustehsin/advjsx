@@ -1,6 +1,7 @@
 //json configuration for production level delivery
 // concept of bundlers
 // parcel bundlers
+// parcel uses Bable and bable uses other dependencies that's why we have nodemodules 
 // caret sign ^ and tilde ~ , for minor and major upgraded in the packages from package.json file 
 // Concept of Transitive dependencies - app depends on parcel and parcel depends on other and others depend on others 
 // browserslist package and epic one (go and check their website online )
