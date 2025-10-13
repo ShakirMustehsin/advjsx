@@ -1,7 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import { RestList } from "../SrcData/RestCardData";
 
-
 const Body = () => {
   return (
     <div className="body">
