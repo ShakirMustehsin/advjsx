@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const NavBar = ()=>{
 
-  const [search, setSearch] = useState("login");
+  const [search, setSearch] = useState("");
   return (
     <div className="navbar">
            <div className="logo">
@@ -12,7 +12,10 @@ const NavBar = ()=>{
               <h4>Home</h4>
               <h4>Offers</h4>
               <h4>About</h4>
-              <button>Login</button>
+              <button onClick={()=> {
+                      if (search === "login") setSearch("logout")
+                        else setSearch("login");
+              } }>{search}</button>
            </div>
     </div>
   )
