@@ -11,7 +11,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9254533&lng=77.546757&collection=83631&tags=layout_CCS_Pizza&sortBy=&filters=&type=rcv2&offset=0&page_type=null"
+       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9254533&lng=77.546757&collection=83631&tags=layout_CCS_Pizza&sortBy=&filters=&type=rcv2&offset=0&page_type=null"
     );
 
     const json = await data.json();
@@ -60,13 +60,13 @@ const Body = () => {
         <button
           onClick={() => {
             console.log(InputVal);
-            const searchFilteredRest = listData.filter(
-            (rest) => { 
-               return rest.info.name.toLowerCase().includes(InputVal.toLowerCase())
-              }
-            )
+            const searchFilteredRest = listData.filter((rest) => {
+              return rest.info.name
+                .toLowerCase()
+                .includes(InputVal.toLowerCase());
+            });
 
-            setlistData(searchFilteredRest)
+            setlistData(searchFilteredRest);
           }}
         >
           Search

@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const NavBar = ()=>{
+
+  const [search, setSearch] = useState("login");
   return (
     <div className="navbar">
            <div className="logo">
@@ -8,6 +12,7 @@ const NavBar = ()=>{
               <h4>Home</h4>
               <h4>Offers</h4>
               <h4>About</h4>
+              <button>Login</button>
            </div>
     </div>
   )
