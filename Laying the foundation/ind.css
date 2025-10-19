@@ -36,12 +36,20 @@
 
 .nav-bar-links {
   display: flex;
+  
   justify-content: center;
   align-items: center;
   gap: 20px;
   text-transform: uppercase;
   font-family: "poppins";
 }
+
+.nav-bar-links a {
+  text-decoration: none!important;
+  color: black;
+}
+
+
 
 .body{
     padding: 0 50px;
