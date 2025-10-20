@@ -7,6 +7,7 @@
     "start": " npx parcel index.html",
     "build ": "npx parcel build index.html"
   },
+  "proxy": "https://www.swiggy.com",
   "keywords": [
     "chemistry"
   ],
