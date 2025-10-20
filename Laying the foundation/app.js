@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/error";
+import Rest from "./components/Rest";
 
 const App = () => {
   return (
@@ -32,6 +33,10 @@ const appRouters = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/rest",
+        element: <Rest />,
       },
     ],
   errorElement: <Error />
