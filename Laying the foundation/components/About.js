@@ -6,8 +6,8 @@ const About = () => {
     return (
         <div>
             <h2>this is about us page </h2>
-            <UserClas/>
-            <User/>
+            <UserClas name={"pasisng proops to use class"}/>
+            <User name={"pasisng proops to use fn"}/>
         </div>
     )
 }
